@@ -18,6 +18,7 @@ public class DeleteRecordFrame extends JFrame {
     /**
      * Create the frame.
      */
+    
     public DeleteRecordFrame() {
         setTitle("Delete Record");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -60,7 +61,7 @@ public class DeleteRecordFrame extends JFrame {
             }
         });
 
-        // Back Button
+        //back buTTon
         JButton btnBack = new JButton("Back");
         btnBack.setBounds(150, 180, 100, 30);
         contentPane.add(btnBack);

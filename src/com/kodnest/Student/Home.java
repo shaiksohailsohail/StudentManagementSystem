@@ -18,6 +18,7 @@ public class Home extends JFrame {
     /**
      * Launch the application.
      */
+    
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -34,6 +35,7 @@ public class Home extends JFrame {
     /**
      * Create the frame.
      */
+    //home page 
     public Home() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 548, 308);
@@ -41,7 +43,10 @@ public class Home extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
         setContentPane(contentPane);
+        
+        
         contentPane.setLayout(null);
+        
 
         JLabel lblNewLabel = new JLabel("STUDENT MANAGEMENT SYSTEM");
         lblNewLabel.setBounds(108, 11, 366, 50);
@@ -64,6 +69,7 @@ public class Home extends JFrame {
         contentPane.add(btnNewButton_1);
 
         // Customised Display Button
+         
         JButton btnNewButton_2 = new JButton("Customised Display");
         btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnNewButton_2.addActionListener(new ActionListener() {
